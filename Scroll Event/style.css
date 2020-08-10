@@ -1,0 +1,253 @@
+* {
+    font-family: 'Inknut Antiqua', serif;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+h1 {
+    color: #21A97E;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 22px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #21A97E;
+    line-height: 1;
+    width: 1200px;
+    margin: 0 auto 10px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.hr {
+    width: 100%;
+    height: 1px;
+    background-color: #4d4d4d;
+
+}
+
+.header {
+    background-color: white;
+    padding-right: 30px;
+    height: auto;
+}
+
+.main {
+    background-color: #e4e7e6;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    width: 1200px;
+    padding-right: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 100vh;
+}
+
+.text {
+    width: 370px;
+    margin-top: 70px;
+    z-index: 1;
+    position: relative;
+}
+
+.cloud {
+    position: absolute;
+}
+
+#cloud-1 {
+    left: -33%;
+    top: 130px;
+}
+
+#cloud-2 {
+    top: 18%;
+    right: 38%;
+    width: 600px;
+    z-index: 0;
+}
+
+#cloud-3 {
+    top: 51%;
+    right: 42%;
+    width: 600px;
+    z-index: 0;
+}
+
+#cloud-4 {
+    top: 56%;
+    right: -8%;
+}
+
+#cloud-5 {
+    top: -20px;
+    left: -119px;
+}
+
+#cloud-6 {
+    right: -220px;
+    bottom: 250px;
+}
+
+#cloud-7 {
+    right: 0;
+    top: 185px;
+    width: 330px;
+}
+
+#cloud-8 {
+    top: 60%;
+    left: -325px;
+    width: 400px;
+}
+
+#cloud-9 {
+    top: 38px;
+    left: 168px;
+    width: 600px;
+}
+
+#cloud-10 {
+    left: -62%;
+    bottom: 86px;
+    width: 400px;
+}
+
+#cloud-11 {
+    top: 1%;
+    left: -249px;
+    width: 350px;
+    z-index: 0;
+}
+
+#cloud-12 {
+    top: 27%;
+    left: 30%;
+}
+
+.img {
+    position: relative;
+}
+
+#balloonFirst {
+    margin-top: -50px;
+    width: 500px;
+    position: relative;
+}
+
+#balloonSecond {
+    margin-top: 13px;
+    margin-right: 40px;
+    width: 690px;
+    position: relative;
+}
+
+.pagination {
+    position: fixed;
+    top: 50%;
+    right: 2%;
+}
+
+.dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #21A97E;
+    margin-bottom: 10px;
+    position: relative;
+    transition: 0.3s;
+}
+.dot:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+.active {
+    background-color: white;
+}
+
+.arrow {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.arrow i {
+    font-size: 28px;
+    color: #21A97E;
+    z-index: 2;
+}
+.arrow i:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.fa-caret-up {
+    margin-top: -10px;
+}
+
+.second h1 {
+    margin-top: 10px;
+}
+
+.third h1 {
+    margin-top: 0;
+}
+
+.footer.container {
+    width: 1300px;
+    display: block;
+}
+
+.footer .text {
+    margin-left: 50px;
+}
+
+.ground {
+    z-index: -1;
+    margin-top: -211px;
+    width: 100%;
+}
+
+.info {
+    display: none;
+    background-image: url("img/nav-arrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 28px;
+    width: 235px;
+    position: absolute;
+    left: -237px;
+    bottom: -5px;
+}
+
+.visible{
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: -9px;
+    left: 9px;
+}

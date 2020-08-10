@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url("./fonts/HelveticaNeue.ttf") format("opentype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url("./fonts/HelveticaNeueMed.ttf") format("opentype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url("./fonts/HelveticaNeueBd.ttf") format("opentype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url("./fonts/HelveticaNeueLt.ttf") format("opentype");
+    font-weight: 300;
+}
+
+body{
+    font-family: 'HelveticaNeue', monospace;
+    font-style: normal;
+    font-weight: 500;
+    color: #000;
+}
+
+nav a{
+    color: #8e869d;
+}
+.active{
+    color: rgba(0,0,0,.9);
+}
+.header__title{
+    background-color: #563d7c;
+}
+.header__text{
+    color: #fff;
+}
+.header__p{
+    font-size: 27.93px;
+}
+h1.title{
+    font-size: 74.47px;
+}
+main{
+    margin-bottom: 80px;
+}
+.form__link {
+    padding: 18px 0;
+}
+.text-big{
+    font-size: 24px;
+}
+.text-small{
+    font-size: 18px;
+}
+.btn__group {
+    margin: 60px 0;
+}
+.footer{
+    padding: 80px 0;
+}
+.outline{
+    color: #7550ad;
+    border-color: #7550ad;
+}
+.outline:hover {
+    color: #fff;
+    background-color: #7550ad;
+    border-color: #7550ad;
+}
+.btn{
+    margin: 10px !important;
+    font-weight: 500;
+    font-size: 20px!important;
+}
+

@@ -1,0 +1,33 @@
+.main-phone{
+  display: flex;flex-wrap:wrap;
+}
+.main-phone a{ font-size: 100%;}
+
+.main-content h1{ font-size: 60px; text-align: center; }
+
+.main-img{ position: static; text-align: center;}
+
+.main-img img{ margin: 0 auto;}
+
+.main-content{background:url('../img/banner.jpg') no-repeat; background-size: cover; background-position:center;}
+
+.main-content p{text-align: center; color: #fff;}
+
+.main-content-wrap form{ display: flex; justify-content: center;}
+
+
+
+@media (max-width: 575.98px){
+ .main-callback-small {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+margin-left: -30px;
+ }
+.main-content-wrap form{
+flex-direction:column;
+}
+.main-content-input{margin:0 0 10px 0;}
+
+.footer a{font-size: 108%;}
+}

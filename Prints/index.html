@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ART Direct</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+</head>
+<body>
+<header class="js-header">
+    <div class="header container">
+        <div class="header__logo">
+            <img src="./img/header/logo2.png" alt="">
+        </div>
+        <div class="header__info">
+            <div class="header__info-phone">
+                <a href="tel:+89990423807"><img src="./img/header/phone.png" alt="">8 (999) <span>042-38-07</span></a>
+                <p>Время работы с 9 00 до 21 00</p>
+                <div class="header__info-btn">
+                    <a data-fancybox data-src="#thank-you-call"
+                       data-hash="thank-you-call" href="javascript:;" class="btn__small">Позвоните нам бесплатно</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="nav">
+        <div class="head__menu js-nav-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <a class="nav__mobile-title" href="tel:+89990423807"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fff" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg> 8 (999) <span>042-38-07</span></a>
+        <div class="header__mobile-btn">
+            <a data-fancybox data-src="#hidden-content"
+               data-hash="test" href="javascript:;" class="btn__small">Позвоните нам бесплатно</a>
+        </div>
+        <ul class="container js-nav-ul">
+            <li><a href="#serv">Наши Услуги</a></li>
+            <li><a href="#cost">Цены</a></li>
+            <li><a href="#about">О компании </a></li>
+            <li><a href="#contact">Контакты</a></li>
+            <li><a href="#quest">F.A.Q</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section  class="intro ">
+        <div class="intro__container">
+            <div class="intro__title">
+                <h1>Инновацинная <span class="color__blue">роспись стен</span></h1>
+                <p> от 2 000 руб за кв. м </p>
+            </div>
+            <div class="intro__content">
+                <div class="intro__values">
+                    <div class="intro__value-backg">
+                        <div class="intro__value">
+                            <img src="./img/main/speed.png">
+                            <div>
+                                <p>Выполнение работы за 1 день</p>
+                                <p>Скорость до 10 кв.м в час !</p>
+                            </div>
+                        </div>
+                        <div class="intro__value">
+                            <img src="./img/main/eco.png">
+                            <p>100 % натуральные эко краски</p>
+                        </div>
+                        <div class="intro__value">
+                            <img src="./img/main/quaranty.png">
+                            <p>5 летняя гарантия на все <br>
+                                виды работ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="intro__form">
+                    <form action="">
+                        <h2>рассчет стоимости</h2>
+                        <label for="phone">Ваш телефон:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="8 (952) 125-52-25"
+                               minlength="11" maxlength="18"
+                               required>
+
+                        <label for="size">Поверхность и размер площади:</label>
+                        <input type="text" id="size" name="size" placeholder="Бетонная стена от 1 до 5 кв. м" required>
+
+                        <label>Ваша идея/что хотели бы видеть на стене:</label>
+
+                        <div class="form-group">
+                            <input type="file" name="file" id="file" class="input-file">
+                            <label for="file" class="btn btn-tertiary label__file">
+                                <span class="file__name">Загрузить изображение</span>
+                                <img src="./img/main/clip.png" alt="">
+                            </label>
+                        </div>
+                        <div class="form_btn">
+                            <button type="submit" class="btn__big">Получить расчет стоимости</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="serv" class="service">
+        <div class="container">
+            <div class="title">
+                <h2>Наши услуги</h2>
+            </div>
+            <div class="service__items">
+                <figure class="service__item">
+                    <div class="service__item-img">
+                        <a href="#"><img src="./img/service/img.jpg" alt=""></a>
+                    </div>
+                    <figcaption>Роспись стен <br>
+                        в офисах
+                    </figcaption>
+                </figure>
+
+                <figure class="service__item">
+                    <div class="service__item-img">
+                        <a href="#"><img src="./img/service/img2.jpg" alt=""></a>
+                    </div>
+                    <figcaption>Роспись стен <br>
+                        в квартирах
+                    </figcaption>
+                </figure>
+
+                <figure class="service__item">
+                    <div class="service__item-img">
+                        <a href="#"><img src="./img/service/img3.jpg" alt=""></a>
+                    </div>
+                    <figcaption>Роспись стен <br>
+                        в ресторане и кафе
+                    </figcaption>
+                </figure>
+
+                <figure class="service__item">
+                    <div class="service__item-img">
+                        <a href="#"><img src="./img/service/img4.jpg" alt=""></a>
+                    </div>
+                    <figcaption>Роспись стен <br>
+                        в государственных <br>
+                        учреждениях
+                    </figcaption>
+                </figure>
+
+                <figure class="service__item">
+                    <div class="service__item-img">
+                        <a href="#"><img src="./img/service/img5.jpg" alt=""></a>
+                    </div>
+                    <figcaption>Роспись стен <br>
+                        в клубах, барах, кальянных
+                    </figcaption>
+                </figure>
+
+                <figure class="service__item">
+                    <div class="service__item-img">
+                        <a href="#"><img src="./img/service/img6.jpg" alt=""></a>
+                    </div>
+                    <figcaption>Роспись стен <br>
+                        в детских комнатах
+                    </figcaption>
+                </figure>
+
+                <figure class="service__item">
+                    <div class="service__item-img">
+                        <a href="#"><img src="./img/service/img7.jpg" alt=""></a>
+                    </div>
+                    <figcaption>Роспись стен <br>
+                        в фитнес клубах
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="service__order">
+                <div class="service__order-cont">
+                    <p>Закажите <b>бесплатный</b> расчет <br>
+                        стоимости и получите дизайн-проект <br>
+                        <b>в ПОДАРОК!</b></p>
+                    <div class="service__btn"><a class="btn__big" data-fancybox data-src="#hidden-content"
+                                                 data-hash="test" href="javascript:;">Получить расчет стоимости</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="title">
+                <h2>О нас</h2>
+            </div>
+            <div class="about__content">
+                <p>Мы живем в удивительное время, когда традиционные техники дополняются современными технологиями
+                    и дают возможность достичь уникальных результатов.</p>
+                <p>Мы - ИННОВАЦИОННАЯ КОМПАНИЯ ART Direct.</p>
+                <p>И мы оформляем стены помещений при помощи <span class="color__blue">HI-TECH робота</span>, который
+                    может нанести на вертикальную поверхность <span
+                            class="color__blue">совершенно любое изображение</span> качественно и с <span
+                            class="color__blue">высокой скоростью</span>.</p>
+                <h3>Посмотрите это видео: процесс выполнения проекта.</h3>
+                <div class="about__content--video">
+                    <iframe src="https://www.youtube.com/embed/GJBN8UkZCxQ" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="advantages">
+        <div class="container">
+            <div class="title">
+                <h2>Наши преимущества</h2>
+            </div>
+            <div class="advantages__items">
+                <figure class="advantages__item">
+                    <img src="./img/advantages/item.png" alt="">
+                    <figcaption>
+                        <h4>Фиксированная
+                            цена</h4>
+                        Платите только
+                        за метры! Никаких
+                        дополнительных затрат!
+                    </figcaption>
+                </figure>
+                <figure class="advantages__item">
+                    <img src="./img/advantages/item2.png" alt="">
+                    <figcaption>
+                        <h4>Роспись
+                            на различных поверхностях:</h4>
+                        бетон, штукатурка, керамика,стекло, металл,
+                        кирпич, дерево и т.д.
+                    </figcaption>
+                </figure>
+                <figure class="advantages__item">
+                    <img src="./img/advantages/item3.png" alt="">
+                    <figcaption>
+                        <h4>Скорость росписи</h4>
+                        до 10 кв.м в час- Экономьте
+                        свое время !
+                    </figcaption>
+                </figure>
+                <figure class="advantages__item">
+                    <img src="./img/advantages/item4.png" alt="">
+                    <figcaption>
+                        <h4>Без грязи
+                            и запаха</h4>
+                        Не придется убирать банки
+                        с красками и проветривать помещение!
+                    </figcaption>
+                </figure>
+                <figure class="advantages__item">
+                    <img src="./img/advantages/item5.png" alt="">
+                    <figcaption>
+                        <h4>Ультроточная роспись</h4>
+                        Платите с погрешностью 0% - любая ваша фантазия окажется на стене
+                        с точностью 100%
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+    <section id="cost" class="cost">
+        <div class="container">
+            <div class="title">
+                <h2>Стоимость наших услуг</h2>
+            </div>
+            <div class="cost__content">
+                <div class="cost__items">
+                    <figure class="cost__item">
+                        <img src="./img/cost/cost1.jpg" alt="">
+                        <figcaption>
+                            <h4>Простое изображение</h4>
+                            Насыщенные иозбражения и надписи
+                            с высоким качеством текстур
+                            <p class="color__blue">от 2 000 руб за кв. м<sup>2</sup></p>
+                        </figcaption>
+                        <a data-fancybox data-src="#hidden-content" href="javascript:;" class="btn__big">Получить расчет
+                            стоимости</a>
+                    </figure>
+
+                    <figure class="cost__item">
+                        <img src="./img/cost/cost2.jpg" alt="">
+                        <figcaption>
+                            <h4>Трехмерное 3D-изображение</h4>
+                            Объемные изображения и надписи
+                            с максимальной реалистичностью
+                            <p class="color__blue">от 5 000 руб за кв. м<sup>2</sup></p>
+                        </figcaption>
+                        <a data-fancybox data-src="#hidden-content" href="javascript:;" class="btn__big">Получить расчет
+                            стоимости</a>
+                    </figure>
+
+                </div>
+                <div class="cost__subtitle">
+                    <img src="./img/icons/print.png" alt="">
+                    <h3>Каждый 10-й м - бесплатно!</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="next">
+        <div class="container">
+            <div class="title">
+                <h2>Что дальше?</h2>
+            </div>
+            <div class="next__content">
+                <div class="next__item">
+                    <span>01</span>
+                    <div class="next__img"><img src="./img/icons/next1.png" alt=""></div>
+                    <div class="next__text">
+                        <h3>Заявка на расчет</h3>
+                        <p>Вы отправляете заявку, обсуждаем основные моменты</p>
+                    </div>
+                    <a data-fancybox data-src="#hidden-content" href="javascript:;" class="btn__small"> Оставить
+                        заявку</a>
+                </div>
+
+                <div class="next__item">
+                    <span>02</span>
+                    <div class="next__img"><img src="./img/icons/next2.png" alt=""></div>
+                    <div class="next__text">
+                        <h3>Выезд на объект</h3>
+                        <p>Встречаемся на объекте
+                            и обсуждаем нюансы</p>
+                    </div>
+                </div>
+
+                <div class="next__item">
+                    <span>03</span>
+                    <div class="next__img"><img src="./img/icons/next3.png" alt=""></div>
+                    <div class="next__text">
+                        <h3>Заключаем договор</h3>
+                        <p>Под чашечку кофе заключаем договор с фиксированной стоимостью и сроком реализации проекта</p>
+                    </div>
+                </div>
+
+
+                <div class="next__item">
+                    <span>04</span>
+                    <div class="next__img"><img src="./img/icons/next4.png" alt=""></div>
+                    <div class="next__text">
+                        <h3>Реализация</h3>
+                        <p>Воплощаем вашу идею, согласно договору</p>
+                    </div>
+                </div>
+
+                <div class="next__item">
+                    <span>05</span>
+                    <div class="next__img"><img src="./img/icons/next5.png" alt=""></div>
+                    <div class="next__text">
+                        <h3>Наслаждаемся результатом</h3>
+                        <p>Фотографируемся на фоне стен и делимся эмоциями</p>
+                    </div>
+                </div>
+
+                <div class="next__item">
+                    <span>06</span>
+                    <div class="next__img"><img src="./img/icons/next6.png" alt=""></div>
+                    <div class="next__text">
+                        <h3>Скидка</h3>
+                        <p><b>15 %</b> на второй заказ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="calculation">
+        <div class="calculation__main container">
+            <h2>получить Расчет стоимости</h2>
+            <form action="">
+                <div class="form__column">
+                    <label for="phone-2">Ваш телефон:</label>
+                    <input type="tel" id="phone-2" name="phone" placeholder="8 (952) 125-52-25"
+                            minlength="11" maxlength="18"
+                           required>
+                    <label for="size-2">Поверхность и размер площади:</label>
+                    <input type="text" id="size-2" name="size" placeholder="Бетонная стена от 1 до 5 кв. м" required>
+                </div>
+                <div class="form__column">
+                    <label class="file-title">Ваша идея/что хотели бы видеть на стене:</label>
+                    <div class="form-group">
+                        <input type="file" name="file" id="file-2" class="input-file">
+                        <label for="file" class="btn btn-tertiary label__file">
+                            <span class="file__name">Загрузить изображение</span>
+                            <img src="./img/main/clip.png" alt="">
+                        </label>
+                    </div>
+                    <div class="form_btn">
+                        <button type="submit" class="btn__big">Получить расчет стоимости</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="quest" class="question">
+        <div class="container">
+            <div class="title">
+                <h2>Часто задаваемые вопросы</h2>
+            </div>
+            <div class="question__items">
+                <div class="question__section">
+                    <h4>Мне нужно очень быстро расписать стены бара, завтра открытие!!! А у меня голые стены, вы сможете
+                        помочь?</h4>
+                    <div class="question__btn">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="question__text">
+                        <p>Скорость это одно из наших приемуществ по сравнению с другими компаниями. За 8 часовой
+                            рабочий день мы сможем росписать около 80 квадратных метров!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question__items">
+                <div class="question__section">
+                    <h4>Можно ли мыть? Остается ли запах ?</h4>
+                    <div class="question__btn">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="question__text">
+                        <p>Мыть не желательно,тем самым вы увеличите срок эксплуатации изображения.Запахов не
+                            остается.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question__items">
+                <div class="question__section">
+                    <h4>Сколько по времени сохнет ваша краска? </h4>
+                    <div class="question__btn">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="question__text">
+                        <p>Наша экологически-безопасная краска засыхает через 2 минуты.Вам не придеться проветривать
+                            помещение.Через 2 минуты краска засыхает.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="question__items">
+                <div class="question__section">
+                    <h4>Насколько стойкая ваша краска? Сколько изображение сможет оставаться таким же ярким и насыщенным
+                        ?</h4>
+                    <div class="question__btn">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="question__text">
+                        <p>Наши чернила имеют максимальную светостойкость.В помещениях изображение сохроняет свою
+                            насыщенность целых 15 лет.На улице 5-7 лет.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="question__items">
+                <div class="question__section">
+                    <h4>На какие поверхности возможно нанесение?</h4>
+                    <div class="question__btn">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="question__text">
+                        <p>Работаем с любыми поверхностями!. Металл, стекло, керамика ,кирпич,дерево,бетон и т.д. У
+                            робота есть множество настроек, благодаря которым он может подстраиваться под любые
+                            поверхностиповерхности.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="answer">
+        <div class="container">
+            <div class="answer__img"></div>
+            <div class="answer__form">
+                <h2>Остались вопросы?</h2>
+                <form action="">
+                    <label class="color__blue" for="phone">Ваш телефон:</label>
+                    <input type="tel" id="phone-3" name="phone" placeholder="8 (952) 125-52-25" minlength="11" maxlength="18"
+                           required>
+                    <label class="color__blue" for="messange">Напишите сообщение:</label>
+                    <textarea name="messange" id="messange" placeholder="Ваш вопрос"></textarea>
+                    <div class="form_btn">
+                        <button type="submit" class="btn__big">Получить расчет стоимости</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+<footer id="contact" class="footer">
+    <div class="container">
+        <div class="footer__item footer__logo">
+            <img src="./img/footer-logo.png" alt="">
+        </div>
+        <div class="footer__item">
+            <ul class="footer__links">
+                <li><a href="#serv">Наши Услуги</a></li>
+                <li><a href="#cost">Цены</a></li>
+                <li><a href="#about">О компании </a></li>
+                <li><a href="#contact">Контакты</a></li>
+                <li><a href="#quest">F.A.Q</a></li>
+            </ul>
+        </div>
+        <div class="footer__item footer_last">
+            <div class="footer__contact">
+                <a href="tel:+89990423807"><img src="./img/header/phone.png" alt="">8 (999) <span>042-38-07</span></a>
+                <p>Время работы с 9 00 до 21 00</p>
+                <a class="footer__mail" href="mailto:artwalldirect@yandex.ru"><img src="./img/icons/mail.png" alt="">artwalldirect@yandex.ru</a>
+                <a href=""><img src="./img/icons/location.png" alt="">Санкт-Петербург, ул. Коллонтай д 3</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer__corp ">
+        <p>ИП СОВПЕЛЬ В.С. ОГРН 318695200005921 </p>
+    </div>
+    </footer>
+<!--    TEST-->
+<div class="pop__up">
+    <a data-fancybox data-src="#thank-you-calc" data-hash="thank-you-calc" href="javascript:;" >Спасибо расчет
+        стоимости</a>
+    <a data-fancybox data-src="#thank-you-answer"data-hash="thank-you-answer" href="javascript:;" >Спасибо ответы</a>
+</div>
+<!--    Test end-->
+
+<div style="display: none;" id="hidden-content" class="calculation__popup">
+    <label class="color__blue" for="phone">Ваш телефон:</label>
+    <input type="tel" id="phone-5" name="phone" placeholder="8 (952) 125-52-25"
+            minlength="11" maxlength="18"
+           required>
+    <label class="color__blue" for="name">Ваше имя и фамилия:</label>
+    <input type="text" id="name" name="phone" placeholder="Введите ваше имя и фамилию"
+           required>
+    <div class="form_btn">
+        <button type="submit" class="btn__big">Получить расчет стоимости</button>
+    </div>
+</div>
+<div style="display: none;" id="thank-you-calc" class="thank-you__popup">
+    <h4>Спасибо за заявку</h4>
+    <p>Мы свяжемся с вами в ближайшее время</p>
+    <p><span class="color__red">Уже с готовым рассчетом</span></p>
+    <div class="form_btn">
+        <button type="submit" class="btn__big">Вернуться на главную</button>
+    </div>
+</div>
+<div style="display: none;" id="thank-you-answer" class="thank-you__popup">
+    <h4>Спасибо за заявку</h4>
+    <p>Мы свяжемся с вами в ближайшее время</p>
+    <p><span class="color__red">Уже с ответом на вопросы</span></p>
+    <div class="form_btn">
+        <button type="submit" class="btn__big">Вернуться на главную</button>
+    </div>
+</div>
+<div style="display: none;" id="thank-you-call" class="calculation__popup">
+    <h4>Заказ обратного звонка</h4>
+    <p>Оставьте свой номер телефона и мы Вам перезвоним в течении 7 минут</p>
+    <input type="tel" id="phone-6" name="phone" placeholder="8 (952) 125-52-25"
+           minlength="11" maxlength="18"
+           required>
+    <div class="form_btn">
+        <button type="submit" class="btn__big">Заказать обратный звонок</button>
+    </div>
+</div>
+<script src="./script.js"></script>
+
+</body>
+</html>
